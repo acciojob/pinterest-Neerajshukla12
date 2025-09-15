@@ -1,1 +1,30 @@
-/*  your css code here. If applicable */
+.hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; /* Image and button stack vertically */
+      height: 100vh;
+      background: #f9f9f9;
+    }
+
+    .hero img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .hero a {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .hero a:hover {
+      background-color: #0056b3;
+    }
